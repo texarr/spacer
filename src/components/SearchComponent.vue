@@ -27,7 +27,7 @@ export default class SearchComponent extends Vue {
     debounce(() => {
       console.log('debounce');
       this.getRequest();
-    }, 500);
+    }, 500)();
   }
 
   getRequest() {
